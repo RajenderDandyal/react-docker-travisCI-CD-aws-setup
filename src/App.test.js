@@ -8,5 +8,5 @@ it('renders without crashing', () => {
   ReactDOM.unmountComponentAtNode(div);
 });
 it('renders without crashing', () => {
-  expect(2 + 2).toBe(3);
+  expect(2 + 2).toBe(4);
 });
