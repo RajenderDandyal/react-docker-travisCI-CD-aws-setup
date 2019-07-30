@@ -6,7 +6,7 @@ before_install:
   - docker build -t rajender/react-docker -f Dockerfile.dev .
 
 script:
-  - docker run rajender/react-docker yarn run test -- --coverage
+  - docker run rajender/react-docker yarn run test
 
 deploy:
   provider: elasticbeanstalk
