@@ -7,4 +7,4 @@
 * `yarn run test` --- will run the tests as norman terminal does 
 
 ## For new dependencies instalation:
-* `yarn add somthng` run this in root directory w/o container, this will update the package.json and then restart containers by `docker-compose up`
+* `yarn add somthng` run this in root directory w/o container, this will update the package.json and then restart containers by `sudo ocker-compose up`
